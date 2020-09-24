@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "rideau-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Rideau's website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Ivan V.",
   "dependencies": {
     "gatsby": "^2.24.63",
     "gatsby-image": "^2.4.19",
@@ -26,7 +26,7 @@
     "prettier": "2.1.1"
   },
   "keywords": [
-    "gatsby"
+    "rideau", "landing page"
   ],
   "scripts": {
     "build": "gatsby build",
@@ -42,9 +42,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/ivanvb/rideau-website"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/ivanvb/rideau-website/issues"
   }
 }
