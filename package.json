@@ -28,7 +28,6 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
     "gatsby:dev": "gatsby develop",
