@@ -21,7 +21,7 @@ const NavbarLink = ({ to, label }) => {
 
 const SocialMediaLink = ({ icon, url }) => {
   return (
-    <li className="mx-l-0 mr-4 lg:ml-2 py-2">
+    <li className="mx-l-0 mr-4 lg:ml-2 my-2">
       <a href={url}>
         {React.cloneElement(icon, {
           size: 20,
@@ -79,7 +79,7 @@ const Header = () => {
   }
 
   return (
-    <header className="bg-white shadow px-3 lg:px-12 py-2 flex flex-wrap items-center justify-between sticky top-0">
+    <header className="bg-white shadow px-3 lg:px-12 py-2 flex flex-wrap items-center justify-between sticky top-0 z-50">
       <Link to="/" className="block flex-grow-0">
         <img
           src={RideauLogo}
@@ -104,7 +104,7 @@ const Header = () => {
         `}
         style={{
           maxHeight: isOpen
-            ? `${expandableSection.current.scrollHeight}px`
+            ? `${expandableSection.current.scrollHeight + 80}px`
             : "0",
         }}
         ref={expandableSection}
