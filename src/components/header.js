@@ -25,7 +25,7 @@ const SocialMediaLink = ({ icon, url }) => {
       <a href={url}>
         {React.cloneElement(icon, {
           size: 20,
-          className: "text-blue-700 hover:text-blue-800",
+          className: "text-primary-500 hover:text-primary-900",
         })}
       </a>
     </li>
