@@ -10,7 +10,7 @@ const NavbarLink = ({ to, label }) => {
     <li className="mx-0 lg:mx-3 py-2">
       <Link
         className="text-gray-500 text-lg hover:text-gray-600"
-        activeClassName="text-blue-700 hover:text-blue-800"
+        activeClassName="text-primary-500 hover:text-primary-300"
         to={to}
       >
         {label}
@@ -90,9 +90,9 @@ const Header = () => {
       <div className="absolute right-0 top-0 mr-3 mt-4 block lg:hidden">
         <button onClick={togggleNavbar} className="p-1">
           {isOpen ? (
-            <MdClose size={32} className="text-blue-600" />
+            <MdClose size={32} className="text-primary-500" />
           ) : (
-            <GiHamburgerMenu size={32} className="text-blue-600" />
+            <GiHamburgerMenu size={32} className="text-primary-500" />
           )}
         </button>
       </div>
