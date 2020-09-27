@@ -1,0 +1,7 @@
+.btn {
+  @apply bg-blue-900 text-white rounded-lg px-8 py-3 cursor-pointer;
+}
+
+.btn:hover {
+  @apply bg-gray-900 text-blue-100;
+}
