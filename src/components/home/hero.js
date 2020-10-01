@@ -27,7 +27,7 @@ const Hero = () => {
           deciding which one to choose to installing it into your home!
         </p>
         <button className="btn w-1/2 lg:w-5/12 mx-auto md:mx-0">
-          See our catalog!
+          See our catalog
         </button>
       </div>
       <Img
