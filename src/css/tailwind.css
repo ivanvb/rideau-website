@@ -1,0 +1,92 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+.btn {
+    @apply bg-primary-500 text-white rounded py-3 cursor-pointer;
+}
+
+.btn:hover {
+    @apply bg-gray-900 text-blue-100;
+}
+
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper {
+    height: 100%;
+}
+
+#gatsby-focus-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex: 0;
+}
+
+main {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.rideau-container {
+    max-width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.transition-max-height {
+    transition-property: max-height;
+}
+@responsive {
+    .max-h-0 {
+        max-height: 0;
+    }
+}
+
+.block-hidden {
+    clip-path: polygon(0% 100%, 0% 100%, 0% 100%);
+}
+
+.appear {
+    animation: appear 2s linear forwards 600ms;
+}
+
+.disappear {
+    animation: disappear 2s linear forwards 500ms;
+}
+
+@keyframes appear {
+    0%,
+    10% {
+        clip-path: polygon(0% 100%, 0% 100%, 0% 100%);
+    }
+
+    50%,
+    100% {
+        clip-path: polygon(0% 100%, 0% -100%, 200% 100%);
+    }
+}
+
+@keyframes disappear {
+    0%,
+    10% {
+        clip-path: polygon(100% 0%, 100% 200%, -100% 0%);
+    }
+
+    50%,
+    100% {
+        clip-path: polygon(100% 0%, 100% 0%, 100% 0%);
+    }
+}
+
+.footer-title {
+    @apply font-bold text-xl text-white mb-1 tracking-wide;
+}
+
+@import "tailwindcss/utilities";
