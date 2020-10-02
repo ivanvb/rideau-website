@@ -12,11 +12,12 @@
 html,
 body,
 #___gatsby,
-#gatsby-focus-wrapper {
+#gatsby-focus-wrapper,
+.website {
     height: 100%;
 }
 
-#gatsby-focus-wrapper {
+.website {
     display: flex;
     flex-direction: column;
 }
