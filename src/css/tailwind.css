@@ -44,6 +44,7 @@ main {
 .transition-max-height {
     transition-property: max-height;
 }
+
 @responsive {
     .max-h-0 {
         max-height: 0;
@@ -88,6 +89,13 @@ main {
 
 .footer-title {
     @apply font-bold text-xl text-white mb-1 tracking-wide;
+}
+
+@responsive {
+    .center-horizontal {
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
 @import "tailwindcss/utilities";

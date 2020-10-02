@@ -79,7 +79,7 @@ const Header = () => {
     }
 
     return (
-        <header className="bg-white shadow px-3 lg:px-12 py-2 flex flex-wrap items-center justify-between fixed top-0 z-50 w-full">
+        <header className="bg-white shadow px-3 lg:px-12 py-2 flex flex-wrap items-center justify-between fixed top-0 z-40 w-full">
             <Link to="/" className="block flex-grow-0">
                 <img
                     src={RideauLogo}
@@ -112,12 +112,12 @@ const Header = () => {
                 }}
                 ref={expandableSection}
             >
-                <ul className="flex w-full lg:w-auto flex-col lg:flex-row">
+                <ul className="flex w-full lg:w-auto flex-col lg:flex-row static md:absolute md:center-horizontal z-50">
                     {navLinks.map((link, i) => (
                         <NavbarLink {...link} key={i} />
                     ))}
                 </ul>
-                <ul className="flex">
+                <ul className="flex md:ml-auto">
                     {socialMediaLinks.map((link, i) => (
                         <SocialMediaLink {...link} key={i} />
                     ))}
