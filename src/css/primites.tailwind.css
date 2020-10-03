@@ -1,7 +1,0 @@
-.btn {
-  @apply bg-primary-500 text-white rounded-lg px-8 py-3 cursor-pointer;
-}
-
-.btn:hover {
-  @apply bg-primary-700 text-blue-100;
-}

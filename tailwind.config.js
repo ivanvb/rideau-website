@@ -20,6 +20,12 @@ module.exports = {
                     900: "#0F223D",
                 },
             },
+            transitionProperty: {
+                "max-height": "max-height",
+            },
+            maxHeight: {
+                0: "0",
+            },
         },
         minHeight: {
             64: "16rem",

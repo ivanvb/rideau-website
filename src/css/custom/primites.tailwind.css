@@ -1,0 +1,21 @@
+:root {
+    --max-width: 1440px;
+}
+
+.btn {
+    @apply bg-primary-500 text-white rounded py-3 cursor-pointer;
+}
+
+.btn:hover {
+    @apply bg-gray-900 text-blue-100;
+}
+
+.rideau-container {
+    max-width: var(--max-width);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-title {
+    @apply font-bold text-xl text-white mb-1 tracking-wide;
+}

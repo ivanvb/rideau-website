@@ -1,0 +1,39 @@
+/* Home Gallery Animations */
+
+.appear {
+    animation: appear 2s linear forwards 600ms;
+}
+
+.disappear {
+    animation: disappear 2s linear forwards 500ms;
+}
+
+.block-hidden {
+    clip-path: polygon(0% 100%, 0% 100%, 0% 100%);
+}
+
+@keyframes appear {
+    0%,
+    10% {
+        clip-path: polygon(0% 100%, 0% 100%, 0% 100%);
+    }
+
+    50%,
+    100% {
+        clip-path: polygon(0% 100%, 0% -100%, 200% 100%);
+    }
+}
+
+@keyframes disappear {
+    0%,
+    10% {
+        clip-path: polygon(100% 0%, 100% 200%, -100% 0%);
+    }
+
+    50%,
+    100% {
+        clip-path: polygon(100% 0%, 100% 0%, 100% 0%);
+    }
+}
+
+/* End of Home Gallery Animations */

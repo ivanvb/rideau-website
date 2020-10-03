@@ -1,0 +1,30 @@
+@import "./primites.tailwind.css";
+
+/* Sticky footer */
+html,
+body,
+#___gatsby,
+#gatsby-focus-wrapper,
+.website {
+    height: 100%;
+}
+
+.website {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex: 0;
+}
+
+/* End of sticky footer */
+
+main {
+    max-width: var(--max-width);
+    margin: auto;
+}
