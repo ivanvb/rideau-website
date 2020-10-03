@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Exterior",
+        "image": "./images/exterior.jpg"
+    },
+    {
+        "name": "Interior",
+        "image": "./images/interior.jpg"
+    },
+    {
+        "name": "Executive",
+        "image": "./images/executive.jpg"
+    }
+]
