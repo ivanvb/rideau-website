@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
+import { useInView } from "react-intersection-observer"
 
 const Categories = () => {
     const categoriesQuery = useStaticQuery(graphql`
@@ -25,18 +26,29 @@ const Categories = () => {
         category => category.node
     )
 
+    const { ref, inView } = useInView({
+        threshold: 0.5,
+        triggerOnce: true,
+    })
+
     return (
-        <section className="std-padding-x std-section-m-bottom std-section-m-top">
-            <h2 className="mb-2 font-bold text-2xl text-primary-900">
-                Our Categories
-            </h2>
+        <section
+            className="std-padding-x std-section-m-bottom std-section-m-top"
+            ref={ref}
+        >
+            <h2 className="section-title mb-2">Our Categories</h2>
             <div className="grid grid-cols-12 gap-4">
                 {categories.map((category, i) => {
                     return (
                         <Link
-                            className="col-span-12 md:col-span-4 h-16 md:h-full w-full relative block rounded md:rounded-none overflow-hidden"
+                            className={`block col-span-12 md:col-span-4 h-16 md:h-full w-full relative rounded md:rounded-none overflow-hidden transform  ${
+                                inView
+                                    ? "opacity-100 translate-y-0 visible"
+                                    : "opacity-0 translate-y-20 invisible"
+                            } transition-all duration-700`}
                             key={i}
                             to="/about"
+                            style={{ transitionDelay: `${i * 250}ms` }}
                         >
                             <Img
                                 fluid={category.image.childImageSharp.fluid}

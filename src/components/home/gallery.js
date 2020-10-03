@@ -28,9 +28,7 @@ const Gallery = () => {
                 galleryImages={galleryImages}
             />
             <div className="lg:pl-12 text w-full lg:w-1/2 order-1 lg:order-2">
-                <h2 className="font-bold text-2xl text-primary-900">
-                    Sun Protection, Everywhere
-                </h2>
+                <h2 className="section-title">Sun Protection, Everywhere</h2>
                 <p className="text-gray-700">
                     Get the best value solar protection for your house. Each
                     time you pick Rideau, you're picking the best not only for
