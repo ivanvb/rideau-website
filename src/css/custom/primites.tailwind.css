@@ -19,3 +19,47 @@
 .footer-title {
     @apply font-bold text-xl text-white mb-1 tracking-wide;
 }
+
+/* Spacing */
+
+.std-padding-x {
+    @apply px-4;
+}
+
+@screen md {
+    .std-padding-x {
+        @apply px-20;
+    }
+}
+
+.std-margin-x {
+    @apply mx-4;
+}
+
+@screen md {
+    .std-margin-x {
+        @apply mx-20;
+    }
+}
+
+.std-section-m-bottom {
+    @apply mb-12;
+}
+
+@screen md {
+    .std-section-m-bottom {
+        @apply mb-24;
+    }
+}
+
+.std-section-m-top {
+    @apply mt-12;
+}
+
+@screen md {
+    .std-section-m-top {
+        @apply mt-24;
+    }
+}
+
+/* End of Spacing */

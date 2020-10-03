@@ -21,7 +21,7 @@ const Gallery = () => {
     const galleryImages = images.allFile.edges.map(image => image.node)
 
     return (
-        <div className="flex flex-wrap mt-12 lg:mt-32 mx-4 md:mx-20 items-stretch lg:h-80 mb-80 lg:mb-12">
+        <div className="flex flex-wrap std-margin-x items-stretch lg:h-80 mb-80 lg:mb-12">
             <AnimatedGallery
                 className="w-full lg:w-1/2 order-2 lg:order-1 h-full mt-6 lg:mt-2"
                 slideDuration={5000}

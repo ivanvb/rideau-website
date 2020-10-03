@@ -22,7 +22,7 @@ const FooterCol = ({ title, links }) => {
 const Footer = () => {
     return (
         <footer className="bg-primary-500 text-white ">
-            <div className="grid grid-cols-12 px-8 md:px-20 py-8 rideau-container">
+            <div className="grid grid-cols-12 std-padding-x py-8 rideau-container">
                 <FooterCol
                     title="Rideau"
                     links={[
@@ -76,7 +76,7 @@ const Footer = () => {
                 />
             </div>
             <div className="py-4 bg-primary-700">
-                <span className="px-8 md:px-20 text-xs opacity-75 block rideau-container">
+                <span className="std-padding-x text-xs opacity-75 block rideau-container">
                     2020 © Rideau LLC
                 </span>
             </div>
