@@ -112,12 +112,12 @@ const Header = () => {
                 }}
                 ref={expandableSection}
             >
-                <ul className="flex w-full lg:w-auto flex-col lg:flex-row static md:absolute md:center-horizontal z-50">
+                <ul className="flex w-full lg:w-auto flex-col lg:flex-row static lg:absolute lg:center-horizontal z-50">
                     {navLinks.map((link, i) => (
                         <NavbarLink {...link} key={i} />
                     ))}
                 </ul>
-                <ul className="flex md:ml-auto">
+                <ul className="flex lg:ml-auto">
                     {socialMediaLinks.map((link, i) => (
                         <SocialMediaLink {...link} key={i} />
                     ))}
