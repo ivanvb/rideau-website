@@ -5,6 +5,7 @@
             "name": "John Doe",
             "image": "./images/characters/john-doe.jpg"
         },
-        "result": "./images/results/string5.jpg"
+        "result": "./images/results/string5.jpg",
+        "link": "/about"
     }
 ]
