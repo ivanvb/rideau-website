@@ -32,6 +32,12 @@
 
 @screen md {
     .std-padding-x {
+        @apply px-12;
+    }
+}
+
+@screen lg {
+    .std-padding-x {
         @apply px-20;
     }
 }
@@ -41,6 +47,12 @@
 }
 
 @screen md {
+    .std-margin-x {
+        @apply mx-12;
+    }
+}
+
+@screen lg {
     .std-margin-x {
         @apply mx-20;
     }

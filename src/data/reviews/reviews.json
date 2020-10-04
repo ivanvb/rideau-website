@@ -1,0 +1,10 @@
+[
+    {
+        "text": "The quality of the service was something I had never came across in any other company. From day one they made sure I was getting the best service possible.",
+        "reviewer": {
+            "name": "John Doe",
+            "image": "./images/characters/john-doe.jpg"
+        },
+        "result": "./images/results/string5.jpg"
+    }
+]
