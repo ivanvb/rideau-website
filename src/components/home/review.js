@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
+import { generateRandomNumber } from "../../util/index"
 
 const Review = () => {
     const reviews = useStaticQuery(graphql`
@@ -33,7 +34,11 @@ const Review = () => {
         }
     `)
 
-    const review = reviews.allReviewsJson.edges[0].node
+    const randomIndex = generateRandomNumber(
+        0,
+        reviews.allReviewsJson.edges.length
+    )
+    const review = reviews.allReviewsJson.edges[randomIndex].node
 
     return (
         <div className="std-padding-x py-8 bg-primary-100 grid grid-cols-12 grid-rows-2 gap-6">

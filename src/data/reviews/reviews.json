@@ -7,5 +7,14 @@
         },
         "result": "./images/results/string5.jpg",
         "link": "/about"
+    },
+    {
+        "text": "This has been one of the most premium services I have received. They adjusted the blinds to fit exactly what I needed, a thing that no other company was offering at a reasonable price.",
+        "reviewer": {
+            "name": "Anne Ericson",
+            "image": "./images/characters/anne-ericson.jpg"
+        },
+        "result": "./images/results/anne-ericson-result.jpg",
+        "link": "/about"
     }
 ]
