@@ -18,7 +18,7 @@ const MainImage = () => {
     const [show, setShow] = useState(false)
     return (
         <div
-            className={`h-64 md:h-96 w-full hide-horizontally ${
+            className={`h-64 md:h-96 w-full hide-horizontally mb-10 ${
                 show ? "appear-horizontally" : "opacity-0"
             }`}
         >
