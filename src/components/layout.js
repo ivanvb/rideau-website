@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
         <>
             <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
             <div className="website pt-20">
-                <main className="content flex-1">{children}</main>
+                <main className="content flex-1 w-full">{children}</main>
                 <Footer />
             </div>
         </>

@@ -37,3 +37,25 @@
 }
 
 /* End of Home Gallery Animations */
+
+/* About image */
+
+.appear-horizontally {
+    animation: horizontal-appear 800ms linear forwards;
+}
+
+.hide-horizontally {
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+}
+
+@keyframes horizontal-appear {
+    0% {
+        clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    }
+
+    100% {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+}
+
+/* End of about image */

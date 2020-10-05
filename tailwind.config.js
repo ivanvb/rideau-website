@@ -8,6 +8,7 @@ module.exports = {
         extend: {
             spacing: {
                 80: "20rem",
+                96: "24rem",
                 128: "32rem",
                 140: "35rem",
             },
