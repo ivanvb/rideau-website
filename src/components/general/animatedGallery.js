@@ -21,7 +21,7 @@ const AnimatedGallery = ({
         return () => {
             clearInterval(interval)
         }
-    }, [])
+    }, [galleryImages.length, slideDuration])
 
     return (
         <div className={`relative ${className}`}>
