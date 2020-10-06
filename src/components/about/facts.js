@@ -3,7 +3,7 @@ import AboutFact from "../general/aboutFact"
 
 const AboutFacts = () => {
     return (
-        <section className="std-padding-x bg-gray-200 text-center py-8">
+        <section className="std-padding-x bg-gray-200 text-center py-8 mb-8">
             <h2 className="font-bold text-3xl mb-3 font text-primary-900">
                 We grow in all directions
             </h2>
