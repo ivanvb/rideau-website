@@ -19,7 +19,7 @@ const CompanyCard = () => {
     `)
 
     const icons = [
-        <HiUserGroup size={36} className="text-primary-100" />,
+        <HiUserGroup size={36} className="text-primary-100 mb-1" />,
         <GiCrystalShine size={36} className="text-primary-100" />,
         <RiRefund2Line size={36} className="text-primary-100" />,
         <FaMagic size={28} className="text-primary-100" />,
