@@ -59,3 +59,14 @@
 }
 
 /* End of about image */
+
+/* magic line */
+
+.magic-line {
+    transition: left 200ms ease-in-out;
+}
+
+.width-transition {
+    transition: left 200ms ease-in-out, width 300ms ease-in-out;
+}
+/* end of magic line */
