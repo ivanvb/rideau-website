@@ -1,6 +1,6 @@
-import React, { useState } from "react"
+import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import HeaderImage from "../general/headerImage"
 
 const MainImage = () => {
     const mainImage = useStaticQuery(graphql`
@@ -15,22 +15,7 @@ const MainImage = () => {
         }
     `)
 
-    const [show, setShow] = useState(false)
-    return (
-        <div
-            className={`h-64 md:h-96 w-full hide-horizontally mb-10 ${
-                show ? "appear-horizontally" : "opacity-0"
-            }`}
-        >
-            <Img
-                fluid={mainImage.file.childImageSharp.fluid}
-                className="h-full w-full object-fill"
-                onLoad={() => setShow(true)}
-                loading={"eager"}
-                placeholderClassName="hidden"
-            />
-        </div>
-    )
+    return <HeaderImage fluidImage={mainImage.file.childImageSharp.fluid} />
 }
 
 export default MainImage
