@@ -1,8 +1,7 @@
-import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import React, { useState } from "react"
 import Img from "gatsby-image"
 
-const HeaderImage = ({ fluidImage }) => {
+const HeaderImage = ({ fluidImage, objectPosition = "center" }) => {
     const [show, setShow] = useState(false)
     return (
         <div
@@ -12,10 +11,14 @@ const HeaderImage = ({ fluidImage }) => {
         >
             <Img
                 fluid={fluidImage}
-                className="h-full w-full object-fill"
+                className="h-full w-full"
                 onLoad={() => setShow(true)}
                 loading={"eager"}
                 placeholderClassName="hidden"
+                imgStyle={{
+                    objectPosition: objectPosition,
+                    objectFit: "cover",
+                }}
             />
         </div>
     )
