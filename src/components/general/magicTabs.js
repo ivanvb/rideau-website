@@ -4,7 +4,9 @@ const MagicTabs = ({ tabs }) => {
     const optionsRef = useRef([])
 
     tabs.forEach((item, i) => {
-        optionsRef.current[i] = React.createRef()
+        if (!optionsRef.current[i]) {
+            optionsRef.current[i] = React.createRef()
+        }
     })
 
     const [left, setLeft] = useState(0)
@@ -13,7 +15,9 @@ const MagicTabs = ({ tabs }) => {
     const [hasInitialWidth, setInitialWidth] = useState(null)
 
     useEffect(() => {
+        // Used to avoid seeing the first transition of the bar below the label.
         const ARTIFICIAL_DELAY = 100
+
         setWidth(`${optionsRef.current[0].current.clientWidth}px`)
         setTimeout(() => {
             setInitialWidth(true)
@@ -26,6 +30,7 @@ const MagicTabs = ({ tabs }) => {
 
         setActiveItem(i)
     }
+
     return (
         <div>
             <div className="relative pb-1">
