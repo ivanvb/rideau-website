@@ -24,6 +24,11 @@
     @apply font-bold text-xl text-white mb-1 tracking-wide;
 }
 
+.read-more-container:hover > a,
+.read-more-container:hover svg {
+    @apply text-primary-900;
+}
+
 /* Spacing */
 
 .std-padding-x {
