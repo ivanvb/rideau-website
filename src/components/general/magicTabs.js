@@ -36,6 +36,7 @@ const MagicTabs = ({ tabs }) => {
             <div className="relative pb-1">
                 <ul className="flex">
                     {tabs.map(({ tabName }, i) => {
+                        console.log(tabName)
                         return (
                             <li className="pr-3" key={i}>
                                 <span
