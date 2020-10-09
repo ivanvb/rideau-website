@@ -2,16 +2,34 @@
     {
         "name": "Exterior",
         "image": "./images/exterior.jpg",
-        "description": "Quis voluptate mollit ea aute deserunt exercitation dolor duis Lorem eu qui dolore magna eu. Magna sint proident ut elit sint ex voluptate. Nulla sunt dolore ex id cupidatat commodo cillum duis cillum enim veniam. Non est in sint eu Lorem. Quis duis et adipisicing sit sit aliquip. Amet tempor ad mollit non aliqua velit. Duis pariatur irure adipisicing laboris nulla esse dolor nostrud cillum exercitation duis sunt pariatur."
+        "description": "Quis voluptate mollit ea aute deserunt exercitation dolor duis Lorem eu qui dolore magna eu. Magna sint proident ut elit sint ex voluptate. Nulla sunt dolore ex id cupidatat commodo cillum duis cillum enim veniam. Non est in sint eu Lorem. Quis duis et adipisicing sit sit aliquip. Amet tempor ad mollit non aliqua velit. Duis pariatur irure adipisicing laboris nulla esse dolor nostrud cillum exercitation duis sunt pariatur.",
+        "showcaseImages": [
+            "../../images/products/principal.jpg",
+            "../../images/products/principal.jpg",
+            "../../images/products/principal.jpg",
+            "../../images/products/principal.jpg"
+        ]
     },
     {
         "name": "Interior",
         "image": "./images/interior.jpg",
-        "description": "Cillum exercitation dolore cupidatat dolore laborum elit duis qui. Sint incididunt ullamco dolor elit aute dolor commodo excepteur. Cillum est fugiat amet velit pariatur reprehenderit excepteur."
+        "description": "Cillum exercitation dolore cupidatat dolore laborum elit duis qui. Sint incididunt ullamco dolor elit aute dolor commodo excepteur. Cillum est fugiat amet velit pariatur reprehenderit excepteur.",
+        "showcaseImages": [
+            "../reviews/images/results/string5.jpg",
+            "../reviews/images/results/string5.jpg",
+            "../reviews/images/results/string5.jpg",
+            "../reviews/images/results/string5.jpg"
+        ]
     },
     {
         "name": "Executive",
         "image": "./images/executive.jpg",
-        "description": "Laboris non non incididunt elit aliqua. Sunt esse ea laborum ullamco incididunt ea labore id laboris et. Eiusmod sint sit culpa laboris. Mollit pariatur duis sint aliquip pariatur labore culpa incididunt ad cillum exercitation fugiat. Deserunt ad laborum commodo qui ex irure et laboris."
+        "description": "Laboris non non incididunt elit aliqua. Sunt esse ea laborum ullamco incididunt ea labore id laboris et. Eiusmod sint sit culpa laboris. Mollit pariatur duis sint aliquip pariatur labore culpa incididunt ad cillum exercitation fugiat. Deserunt ad laborum commodo qui ex irure et laboris.",
+        "showcaseImages": [
+            "../../images/about/principal.jpg",
+            "../../images/about/principal.jpg",
+            "../../images/about/principal.jpg",
+            "../../images/about/principal.jpg"
+        ]
     }
 ]

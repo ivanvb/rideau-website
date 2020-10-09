@@ -18,6 +18,13 @@ const ProductCategories = () => {
                                 }
                             }
                         }
+                        showcaseImages {
+                            childImageSharp {
+                                fluid(maxHeight: 300, maxWidth: 300) {
+                                    ...GatsbyImageSharpFluid
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -33,6 +40,9 @@ const ProductCategories = () => {
                     title={category.name}
                     text={category.description}
                     image={category.image.childImageSharp.fluid}
+                    showcaseImages={category.showcaseImages.map(
+                        showcaseImage => showcaseImage.childImageSharp.fluid
+                    )}
                 />
             ),
         })
