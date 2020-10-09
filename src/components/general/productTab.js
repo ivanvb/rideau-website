@@ -18,7 +18,7 @@ const ProductTab = ({ title, text, image, showcaseImages }) => {
                 </p>
                 <div className="my-2 flex items-center read-more-container">
                     <Link
-                        to="/about"
+                        to="/about/"
                         className="text-primary-500 font-bold flex items-center"
                     >
                         Read More
@@ -27,7 +27,7 @@ const ProductTab = ({ title, text, image, showcaseImages }) => {
                 </div>
                 <div className="grid grid-cols-4 gap-2 relative lg:absolute w-full bottom-0">
                     {showcaseImages.map((showcaseImage, i) => (
-                        <Link to="/about">
+                        <Link to="/about/">
                             <Img
                                 key={i}
                                 fluid={showcaseImage}

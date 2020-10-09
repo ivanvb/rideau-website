@@ -35,23 +35,23 @@ const SocialMediaLink = ({ icon, url }) => {
 const Header = () => {
     const navLinks = [
         {
-            to: "/about",
+            to: "/about/",
             label: "About",
         },
         {
-            to: "/products",
+            to: "/products/",
             label: "Products",
         },
         {
-            to: "/portfolio",
+            to: "/portfolio/",
             label: "Portfolio",
         },
         {
-            to: "/news",
+            to: "/news/",
             label: "News",
         },
         {
-            to: "/contact",
+            to: "/contact/",
             label: "Contact",
         },
     ]
