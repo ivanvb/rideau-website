@@ -79,7 +79,7 @@ const Header = () => {
     }
 
     return (
-        <header className="bg-white shadow px-3 lg:px-12 py-2 flex flex-wrap items-center justify-between fixed top-0 z-40 w-full">
+        <header className="bg-white shadow px-3 lg:px-12 py-2 flex flex-wrap items-center justify-between fixed top-0 z-50 w-full">
             <Link to="/" className="block flex-grow-0">
                 <img
                     src={RideauLogo}

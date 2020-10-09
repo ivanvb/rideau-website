@@ -36,11 +36,13 @@ const MagicTabs = ({ tabs }) => {
             <div className="relative pb-1">
                 <ul className="flex">
                     {tabs.map(({ tabName }, i) => {
-                        console.log(tabName)
                         return (
-                            <li className="pr-3" key={i}>
+                            <li
+                                className="pr-16 tracking-wider text-gray-900"
+                                key={i}
+                            >
                                 <span
-                                    className="cursor-pointer block"
+                                    className="cursor-pointer block text-2xl"
                                     ref={optionsRef.current[i]}
                                     onClick={() =>
                                         updateActiveTab(
@@ -69,8 +71,8 @@ const MagicTabs = ({ tabs }) => {
                             key={i}
                             className={`${
                                 i === activeItem
-                                    ? "relative opacity-100 z-50"
-                                    : "absolute opacity-0 z-0"
+                                    ? "relative opacity-100 z-10"
+                                    : "absolute opacity-0 z-0 top-0"
                             }`}
                         >
                             {item}
