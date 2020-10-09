@@ -38,11 +38,11 @@ const MagicTabs = ({ tabs }) => {
                     {tabs.map(({ tabName }, i) => {
                         return (
                             <li
-                                className="pr-16 tracking-wider text-gray-900"
+                                className="pr-6 md:pr-16 tracking-wider text-gray-900"
                                 key={i}
                             >
                                 <span
-                                    className="cursor-pointer block text-2xl"
+                                    className="cursor-pointer block text-xl md:text-2xl"
                                     ref={optionsRef.current[i]}
                                     onClick={() =>
                                         updateActiveTab(
