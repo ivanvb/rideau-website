@@ -18,7 +18,7 @@ const ProductTab = ({ title, text, image, showcaseImages }) => {
                 </p>
                 <div className="my-2 flex items-center read-more-container">
                     <Link
-                        to="/about/"
+                        to={`/products/${title.toLowerCase()}/`}
                         className="text-primary-500 font-bold flex items-center"
                     >
                         Read More
