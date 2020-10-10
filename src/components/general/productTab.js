@@ -27,12 +27,12 @@ const ProductTab = ({ title, text, image, showcaseImages }) => {
                 </div>
                 <div className="grid grid-cols-4 gap-2 relative lg:absolute w-full bottom-0">
                     {showcaseImages.map((showcaseImage, i) => (
-                        <Link to="/about/">
-                            <Img
-                                key={i}
-                                fluid={showcaseImage}
-                                className="col-span-2 md:col-span-1 h-full"
-                            />
+                        <Link
+                            to="/about/"
+                            key={i}
+                            className="col-span-2 md:col-span-1 "
+                        >
+                            <Img fluid={showcaseImage} className="h-full" />
                         </Link>
                     ))}
                 </div>
