@@ -1,4 +1,3 @@
-import "../css/tailwind.build.css"
 import React from "react"
 import Hero from "../components/home/hero"
 import Gallery from "../components/home/gallery"
