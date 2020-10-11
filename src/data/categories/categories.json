@@ -8,7 +8,8 @@
             "../../images/products/exterior/awanings/awanings-07.jpg",
             "../../images/products/exterior/awanings/awanings-05.jpg",
             "../../images/products/exterior/awanings/awanings-06.jpg"
-        ]
+        ],
+        "headerImage": "../../images/products/exterior/ombralsun/ombralsun-02.jpg"
     },
     {
         "name": "Interior",
@@ -19,7 +20,8 @@
             "../../images/products/interior/roller/roller-02.jpg",
             "../../images/products/interior/roller/roller-06.jpg",
             "../../images/products/interior/dual/dual-02.jpg"
-        ]
+        ],
+        "headerImage": "../../images/products/interior/roman/roman-04.jpg"
     },
     {
         "name": "Executive",
@@ -30,6 +32,7 @@
             "../../images/products/executive/sliding-panel/sliding-panel-06.jpg",
             "../../images/products/executive/sliding-panel/sliding-panel-04.jpg",
             "../../images/products/executive/vertical/vertical-01.jpg"
-        ]
+        ],
+        "headerImage": "../../images/products/executive/skyline/skyline-06.jpg"
     }
 ]
