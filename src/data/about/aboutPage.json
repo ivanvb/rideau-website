@@ -1,4 +1,27 @@
 {
+    "description": "Established in the summer of 1980, Rideau has always been about providing the best quality blinds to our customers. This has been a key component to our worldwide success, which has allowed us to work with customers from all over the world and use their feedback and recommendations to improve our overall product. We believe that our best marketing strategy is to offer a high quality product at a price that our customers are willing to pay. That is why all of our products are available throughout the year, everyday at the same price. No surprises, no one-day limited deal. You look for quality blinds for your home or your office and we are here to help with that.",
+    "facts": {
+        "title": "We grow in all directions",
+        "description": "Rideau is always looking to expand to new clients and associates while providing a premium experience like no other blinds company out there.",
+        "data": [
+            {
+                "number": "33",
+                "text": "different nationailities have worked with us"
+            },
+            {
+                "number": "+119K",
+                "text": "clients all over the world"
+            },
+            {
+                "number": "17",
+                "text": "Forbes 500 companies have chosen Rideau over other alternatives"
+            },
+            {
+                "number": "+100",
+                "text": "different blinds that can be adjusted to your specific requirements"
+            }
+        ]
+    },
     "whyTheyPickUs": [
         {
             "title": "Social and Corporate Responsibility",

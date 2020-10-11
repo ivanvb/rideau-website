@@ -1,6 +1,6 @@
 import React from "react"
 import Img from "gatsby-image"
-import { graphql, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery, Link } from "gatsby"
 
 const Hero = () => {
     const heroImage = useStaticQuery(graphql`
@@ -28,9 +28,12 @@ const Hero = () => {
                     process, from deciding which one to choose to installing it
                     into your home!
                 </p>
-                <button className="btn w-1/2 lg:w-5/12 mx-auto md:mx-0">
+                <Link
+                    to="/products/"
+                    className="btn w-1/2 lg:w-5/12 mx-auto md:mx-0 block text-center"
+                >
                     See our catalog
-                </button>
+                </Link>
             </div>
             <Img
                 fluid={heroImage.file.childImageSharp.fluid}

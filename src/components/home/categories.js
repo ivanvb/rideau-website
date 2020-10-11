@@ -47,7 +47,7 @@ const Categories = () => {
                                     : "opacity-0 translate-y-20 invisible"
                             } transition-all duration-700`}
                             key={i}
-                            to="/about/"
+                            to={`/products/${category.name.toLowerCase()}/`}
                             style={{ transitionDelay: `${i * 250}ms` }}
                         >
                             <Img
