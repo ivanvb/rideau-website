@@ -9,7 +9,34 @@
             "../../images/products/exterior/awanings/awanings-05.jpg",
             "../../images/products/exterior/awanings/awanings-06.jpg"
         ],
-        "headerImage": "../../images/products/exterior/ombralsun/ombralsun-02.jpg"
+        "headerImage": "../../images/products/exterior/ombralsun/ombralsun-02.jpg",
+        "subcategories": [
+            {
+                "name": "Awanings",
+                "slug": "awanings",
+                "picture": "../../images/products/exterior/awanings/awanings-02.jpg"
+            },
+            {
+                "name": "Helix",
+                "slug": "helix",
+                "picture": "../../images/products/exterior/helix/helix-06.jpg"
+            },
+            {
+                "name": "Ombralsun",
+                "slug": "ombralsun",
+                "picture": "../../images/products/exterior/ombralsun/ombralsun-05.jpg"
+            },
+            {
+                "name": "Patio",
+                "slug": "patio",
+                "picture": "../../images/products/exterior/patio/patio-01.jpg"
+            },
+            {
+                "name": "Perma",
+                "slug": "perma",
+                "picture": "../../images/products/exterior/perma/perma-06.jpg"
+            }
+        ]
     },
     {
         "name": "Interior",
@@ -21,7 +48,39 @@
             "../../images/products/interior/roller/roller-06.jpg",
             "../../images/products/interior/dual/dual-02.jpg"
         ],
-        "headerImage": "../../images/products/interior/roman/roman-04.jpg"
+        "headerImage": "../../images/products/interior/roman/roman-04.jpg",
+        "subcategories": [
+            {
+                "name": "Blackout",
+                "slug": "blackout",
+                "picture": "../../images/products/interior/blackout/blackout-03.jpg"
+            },
+            {
+                "name": "Dual",
+                "slug": "dual",
+                "picture": "../../images/products/interior/dual/dual-03.jpg"
+            },
+            {
+                "name": "Horizontal",
+                "slug": "horizontal",
+                "picture": "../../images/products/interior/horizontal/horizontal-01.jpg"
+            },
+            {
+                "name": "Plisada",
+                "slug": "plisada",
+                "picture": "../../images/products/interior/plisada/plisada-01.jpg"
+            },
+            {
+                "name": "Roller",
+                "slug": "roller",
+                "picture": "../../images/products/interior/roller/roller-06.jpg"
+            },
+            {
+                "name": "Roman",
+                "slug": "roman",
+                "picture": "../../images/products/interior/roman/roman-07.jpg"
+            }
+        ]
     },
     {
         "name": "Executive",
@@ -33,6 +92,33 @@
             "../../images/products/executive/sliding-panel/sliding-panel-04.jpg",
             "../../images/products/executive/vertical/vertical-01.jpg"
         ],
-        "headerImage": "../../images/products/executive/skyline/skyline-06.jpg"
+        "headerImage": "../../images/products/executive/skyline/skyline-06.jpg",
+        "subcategories": [
+            {
+                "name": "Pirouette",
+                "slug": "pirouette",
+                "picture": "../../images/products/executive/pirouette/pirouette-6.jpg"
+            },
+            {
+                "name": "Skyline",
+                "slug": "skyline",
+                "picture": "../../images/products/executive/skyline/skyline-01.jpg"
+            },
+            {
+                "name": "Sliding Panel",
+                "slug": "sliding-panel",
+                "picture": "../../images/products/executive/sliding-panel/sliding-panel-06.jpg"
+            },
+            {
+                "name": "Vertical",
+                "slug": "vertical",
+                "picture": "../../images/products/executive/vertical/vertical-01.jpg"
+            },
+            {
+                "name": "Vignette",
+                "slug": "vignette",
+                "picture": "../../images/products/executive/vignette/vignette-05.jpg"
+            }
+        ]
     }
 ]
