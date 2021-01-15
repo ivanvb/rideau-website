@@ -18,7 +18,7 @@ const HeaderImage = ({ fluidImage, objectPosition = "center", darken }) => {
                 imgStyle={{
                     objectPosition: objectPosition,
                     objectFit: "cover",
-                    filter: `darken ? "brightness(80%)" : ""`,
+                    filter: `${darken ? "brightness(65%)" : ""}`,
                 }}
             />
         </div>

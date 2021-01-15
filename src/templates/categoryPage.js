@@ -16,7 +16,7 @@ const CategoryPage = ({ data }) => {
                     fluidImage={categoryData.headerImage.childImageSharp.fluid}
                     darken
                 />
-                <h1 className="absolute bottom-0 ml-4 lg:ml-20 pb-4 lg:pb-6 text-white text-3xl lg:text-6xl uppercase tracking-wide">
+                <h1 className="absolute bottom-0 ml-4 md:ml-12 lg:ml-20 pb-4 lg:pb-6 text-white text-3xl md:text-5xl lg:text-6xl uppercase tracking-wide">
                     {categoryData.name}
                 </h1>
             </div>
