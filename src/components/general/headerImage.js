@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import Img from "gatsby-image"
 
-const HeaderImage = ({ fluidImage, objectPosition = "center" }) => {
+const HeaderImage = ({ fluidImage, objectPosition = "center", darken }) => {
     const [show, setShow] = useState(false)
     return (
         <div
@@ -18,6 +18,7 @@ const HeaderImage = ({ fluidImage, objectPosition = "center" }) => {
                 imgStyle={{
                     objectPosition: objectPosition,
                     objectFit: "cover",
+                    filter: `darken ? "brightness(80%)" : ""`,
                 }}
             />
         </div>

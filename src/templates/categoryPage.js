@@ -11,9 +11,15 @@ const CategoryPage = ({ data }) => {
     return (
         <Layout>
             <SEO title={categoryData.name} />
-            <HeaderImage
-                fluidImage={categoryData.headerImage.childImageSharp.fluid}
-            />
+            <div className="relative">
+                <HeaderImage
+                    fluidImage={categoryData.headerImage.childImageSharp.fluid}
+                    darken
+                />
+                <h1 className="absolute bottom-0 ml-4 lg:ml-20 pb-4 lg:pb-6 text-white text-3xl lg:text-6xl uppercase tracking-wide">
+                    {categoryData.name}
+                </h1>
+            </div>
             <section className="std-padding-x mb-6">
                 <MultiparagraphText text={categoryData.description} />
             </section>
