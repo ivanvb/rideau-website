@@ -43,8 +43,8 @@ const Header = () => {
             label: "Products",
         },
         {
-            to: "/portfolio/",
-            label: "Portfolio",
+            to: "/testimonials/",
+            label: "Testimonials",
         },
         {
             to: "/news/",
