@@ -14,26 +14,31 @@
             {
                 "name": "Awanings",
                 "slug": "awanings",
+                "description": "Awaning blinds are the perfect fit for your exterior. With a wide, moder, and aesthetic selection of colors & textures, they'll be sure to add colour to any interior or outhouse that's going low on budget. The product is currently available in six color options: burgundy, silver gray, green, white, dark brown, and black pearl.\nOut of every ten clients, nine say they are more than happy with their acquisition of Awanings and the number grows every year! Get yours now and experience solar protection in a whole new level.",
                 "picture": "../../images/products/exterior/awanings/awanings-02.jpg"
             },
             {
                 "name": "Helix",
                 "slug": "helix",
+                "description": "From simple opacity to completely opaque, Rideau offers the gorgeous Helix model in four different levels of solar blocking percentage to best suit your needs as a customer. Base opacity offers offers little to no light blocking - allowing natural light to flow through the room. These panels are perfect for allowing the sunlight to come in and radiate your skin during a summer day. Semibase filtering curtain panels provide a tin coat of solar protection while still allowing some natural light to shine through. Semi opaque Helix curtains reduce the natural light from shining into your room while providing privacy. These curtains will make your exterior slightly darker, giving the room a subdued look. Finally, completely opaque minimizes the nautral light from coming in, perfect for those days where you want to read some books in the outside.",
                 "picture": "../../images/products/exterior/helix/helix-06.jpg"
             },
             {
                 "name": "Ombralsun",
                 "slug": "ombralsun",
+                "description": "Rideau's Ombralsun are, for  its dimension, the best you will find for compact solar protection. From the moment you buy them their ease of installation and adjustment, is surely on top of the already wide range of products for patios and balconies.‎ The system is completed by a full cassette that encloses both sides of the awning, when closed.‎ Every model Rideau's Ombralsun has been tested in a wide variety of climates to ensure that you will get a product that will last independently of the type of climate you expose it to.‎ Start invsting in solar protection for your exterior spaces today by picking Ombralsun!",
                 "picture": "../../images/products/exterior/ombralsun/ombralsun-05.jpg"
             },
             {
                 "name": "Patio",
                 "slug": "patio",
+                "description": "Made from 100% Polyester, our Patio blinds are the perfect package package.  Containing a single blackout panel with the same gorgeous color in the back and the front, you will never go wrong by deciding to protect your exterior with this model. Rustproof grommets on the top with 1.6 inches of inner diameters makes it fit most standard curtain rods.\nBesides that, we use our special selection of materials, with light block & weatherproof effect, handy to versatile use in the outdoors indoors conditions, this allows our Patio models to block 85-95% sunlight. Also we recently included our Thermal Insulated Soluton (TIS) whic helps balance the summer heat and winter cold while bringing elegant feeling for your home.",
                 "picture": "../../images/products/exterior/patio/patio-01.jpg"
             },
             {
                 "name": "Perma",
                 "slug": "perma",
+                "description": "Rideau's Perma Blinds use some of our newest and more advance techniques for high fidelity, high technology, and high solar protection efficiency. These blinds feature a permanent and secured place that can be placed were all modern blinds will easily be detected. This model in particular was designed to blend perfectly with your exterior, giving it an integrated look, perfect for asthetic decorations or thematic events.",
                 "picture": "../../images/products/exterior/perma/perma-06.jpg"
             }
         ]
@@ -53,31 +58,37 @@
             {
                 "name": "Blackout",
                 "slug": "blackout",
+                "description": "Rideau's Blackout curtains help keep bedrooms exceptionally dark, making them perfect for afternoon naps, night shift workers, and light-sensitive sleepers. In addition to promoting better sleep, blackout curtains ensure complete privacy and help reduce outside noise for a quieter indoor environment. With our innovative 99.97% sunlight protection, these blackout curtain can go in the washing machine for convenient, hassle-free care while still retaining its marvelous solar blocking capacities. Available in multiple colors and lengths.With panels made of innovative triple-weave 240 GSM polyester fabric, these curtains not only block light, but also act as an insulating barrier.",
                 "picture": "../../images/products/interior/blackout/blackout-03.jpg"
             },
             {
                 "name": "Dual",
                 "slug": "dual",
+                "description": "Double solar protection in a compact space. Rideau's Dual Blinds System is ideal for spaces where you need flexibility between letting a small amoung of light pass, letting it all go through or blocking it altogether. Few solutions in the market are as elegant and functional as the one we provide, and this is shown by a 97.8% customer satisfaction in our latest survey, which included customers from over 20 countries who were able to install our Dual solution in a wide variety of environment configurations.",
                 "picture": "../../images/products/interior/dual/dual-03.jpg"
             },
             {
                 "name": "Horizontal",
                 "slug": "horizontal",
+                "description": "Rideau's Horizontal Blinds offer light control over standard vinyl blinds. The upgraded room darkening slats dim the room from outside light, making these blinds ideal for rooms that require darkness and privacy but not in need of total blackout. The new, cord-free design provides a clean, tangle-free look to the window and creates a safer environment for children and pets. To operate the blind, simply lift or lower the bottom rail and adjust it to your desired height. To maintain the blinds, wipe clean with a soft cloth to keep it looking new. The installation kit includes all mounting hardware and easy-to-follow instructions that make installation a breeze. Please note that a 0.5-inch deduction will be taken from the width of the blind to allow proper installation inside the window frame. Get yours today and start seeing how your interior spaces are transformed by our Horizontal blinds.",
                 "picture": "../../images/products/interior/horizontal/horizontal-01.jpg"
             },
             {
                 "name": "Plisada",
                 "slug": "plisada",
+                "description": "Almost endless possibilities are created when you combine a company with as many years of experience as Rideau with a model as flexible as Plisada. Rideau's Plisadas blinds has been our fastest growing product in the past few years, and that is no coincidence, its simplicity makes it the perfect solution for both homes and offices. Our complete product long tail offers a solution to every roller blind situation. From basic to exclusive, ready-made to made-to-measure, residential to commercial, and everything in between. As a brand specialized in window coverings, our many years of experience are reflected in innovative products that are designed and developed in-house by our experts.",
                 "picture": "../../images/products/interior/plisada/plisada-01.jpg"
             },
             {
                 "name": "Roller",
                 "slug": "roller",
+                "description": "With their endless possibilities when it comes to style and functionality, Rideau's roller blinds are our most popular model among our wide variety of shades. Its simplicity makes it the perfect solution for both homes and offices. Our complete product long tail offers a solution to every roller blind situation. From basic to exclusive, ready-made to made-to-measure, residential to commercial, and everything in between. As a brand specialized in window coverings, our many years of experience are reflected in innovative products that are designed and developed in-house by our experts. Based on current trends, our Roller model is continuously being updated to reflect the latest trends on the market.",
                 "picture": "../../images/products/interior/roller/roller-06.jpg"
             },
             {
                 "name": "Roman",
                 "slug": "roman",
+                "description": "With Rideau's Roman shades design your interior windows in a clean, understated style with this classic roman shade. Crafted from polyester fabric with a neutral hue, this shade showcases an interior lining to help block out light. Featuring a cordless design that delivers a streamlined look that's safe around little ones, just pull on the bottom rail to lift of lower this shade. Ready to install right out of the box, this unit comes with instructions and hardware included",
                 "picture": "../../images/products/interior/roman/roman-07.jpg"
             }
         ]
@@ -97,26 +108,31 @@
             {
                 "name": "Pirouette",
                 "slug": "pirouette",
+                "description": "Pirouette by Rideau is the perfect line for simple, minimalistic and modern offices all around the world. Crave clean lines and straightforward design, consider Pirouette® Window Shadings—a modern alternative to traditional fabric shades.\nAn exclusive product to Hunter Douglas, Pirouette shadings feature softly contoured, front-facing fabric vanes attached to a single sheer backing. During opening and closing, the vanes move in tandem for a fluid, graceful effect. Pirouette shadings can also be raised completely into the headrail for a totally unobstructed view.",
                 "picture": "../../images/products/executive/pirouette/pirouette-6.jpg"
             },
             {
                 "name": "Skyline",
                 "slug": "skyline",
+                "description": "Our Skyline blinds line is the one you are looking for if you want an elegant, all time classic look for your office. Create a sober look to any of your office spaces with this decorative and unique \"Lined window curtain\". Perfect for the living room, dining room or bedroom, these artistic curtains are an easy and inexpensive way to add color and style when decorating your home. This is a thin woven poly material with a poly backing that blocks outside light and creates a privacy barrier. One image is printed across two panels, so half the image is on the left panel and half the image is on the right panel. A set of 2 panels completes one image. Images with a darker background block more light, than lighter colored images. Get yours today and start giving a touch of fresh air to your office!",
                 "picture": "../../images/products/executive/skyline/skyline-01.jpg"
             },
             {
                 "name": "Sliding Panel",
                 "slug": "sliding-panel",
+                "description": "Rideau Darkening Sliding Panel Curtain oofer a luxurious alternative to the classical sliding panel that is a must in every office since 1970s. These stylish contemporary curtain panels will complement most modern decor themes, and can even be a nice accent to more traditional design schemes. You can choose from different kinds of colors and lengths of curtains to offer the best for your home. These room darkening curtains balance room temperature by insulating against summer heat and winter chill. The rod pocket style makes them easy to hang.",
                 "picture": "../../images/products/executive/sliding-panel/sliding-panel-06.jpg"
             },
             {
                 "name": "Vertical",
                 "slug": "vertical",
+                "description": "Perfectly frame your window with this eye-catching Rideau Vertical  panel. It's made from polyester and showcases a subtle striped design in a neutral hue of your choice. Designed to dim a room, this curtain helps block some light, so you can create a spot for movie night or have some added privacy in the kitchen. Up top, there is a rod pocket that allows for easy installation (rod not included). When this curtain needs a freshen-up, you can just toss it into the wash and tumble dry. This curtain is sold as an individual panel, but you can order them in a pack of 3, 6, and 12 for your office needs.",
                 "picture": "../../images/products/executive/vertical/vertical-01.jpg"
             },
             {
                 "name": "Vignette",
                 "slug": "vignette",
+                "description": "Fashion meets functionality with these Rideau Vignette window curtain panels, which are true blackout, blocking 100% of the natural light from coming into the home. They feature an elegant, one of a kind pattern which gives your office the proffessional yet playful tone that is so trendy lately among young startups and high impact, Fortune 500 businesses. Get yours today and start attracting young talent!.",
                 "picture": "../../images/products/executive/vignette/vignette-05.jpg"
             }
         ]
