@@ -1,7 +1,9 @@
 ---
 title: Forty Years of Rideau
-date: 2020-12-02T17:00:00.000
+date: 2020-09-07T17:00:00.000
+slug: twenty-years-of-rideau
 excerpt: Rideau was founded the 7th of September of 1980, see how we've grown in the past four decades and what we have planned for the future!
+image: ../../images/home/gallery/ombralsun3.jpg
 ---
 
 On the 7th of September of 1980, Paul Rideau founded Rideau Shades. This came after several years of experience in the interior design market and a desire to reach out to a global audience when no one else was doing it.
