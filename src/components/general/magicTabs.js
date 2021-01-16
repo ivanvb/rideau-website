@@ -41,8 +41,8 @@ const MagicTabs = ({ tabs }) => {
                                 className="pr-6 md:pr-16 tracking-wider text-gray-900"
                                 key={i}
                             >
-                                <span
-                                    className="cursor-pointer block text-xl md:text-2xl"
+                                <button
+                                    className="cursor-pointer block text-xl md:text-2xl focus:outline-none"
                                     ref={optionsRef.current[i]}
                                     onClick={() =>
                                         updateActiveTab(
@@ -52,7 +52,7 @@ const MagicTabs = ({ tabs }) => {
                                     }
                                 >
                                     {tabName}
-                                </span>
+                                </button>
                             </li>
                         )
                     })}

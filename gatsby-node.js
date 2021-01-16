@@ -1,6 +1,6 @@
 const path = require("path")
 
-exports.createPages = async function ({ actions, graphql }) {
+async function createCategoriesPages(actions, graphql) {
     const { data } = await graphql(`
         query {
             allCategoriesJson {
@@ -22,4 +22,39 @@ exports.createPages = async function ({ actions, graphql }) {
             },
         })
     })
+}
+
+async function createSubcategoriesPages(actions, graphql) {
+    const { data } = await graphql(`
+        query {
+            allCategoriesJson {
+                edges {
+                    node {
+                        name
+                        subcategories {
+                            name
+                        }
+                    }
+                }
+            }
+        }
+    `)
+
+    data.allCategoriesJson.edges.forEach(({ node }) => {
+        node.subcategories.forEach(({ name: subcategoryName }) => {
+            actions.createPage({
+                path: `/products/${node.name.toLowerCase()}/${subcategoryName.toLowerCase()}`,
+                component: path.resolve("./src/templates/subcategoryPage.js"),
+                context: {
+                    name: node.name,
+                    subcategory: subcategoryName,
+                },
+            })
+        })
+    })
+}
+
+exports.createPages = async function ({ actions, graphql }) {
+    await createCategoriesPages(actions, graphql)
+    await createSubcategoriesPages(actions, graphql)
 }

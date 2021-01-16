@@ -8,12 +8,10 @@ const MultiparagraphText = ({ text, className = "" }) => {
     return (
         <>
             {paragraphs.map((p, i) => (
-                <>
-                    <p className={`${className} text-gray-700`} key={i}>
-                        {p}
-                    </p>
+                <React.Fragment key={i}>
+                    <p className={`${className} text-gray-700`}>{p}</p>
                     {isNotLastParagraph(i, paragraphs) && <br></br>}
-                </>
+                </React.Fragment>
             ))}
         </>
     )
