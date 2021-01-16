@@ -11,6 +11,7 @@ const NavbarLink = ({ to, label }) => {
             <Link
                 className="text-gray-500 text-lg hover:text-gray-600"
                 activeClassName="text-primary-500 hover:text-primary-300"
+                partiallyActive={true}
                 to={to}
             >
                 {label}
