@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const FooterCol = ({ title, links }) => {
     return (
@@ -7,12 +8,12 @@ const FooterCol = ({ title, links }) => {
             <ul className="list-none">
                 {links.map((link, i) => (
                     <li key={i} className="my-1 text-sm">
-                        <a
+                        <Link
                             className="opacity-50 hover:opacity-75"
-                            href={link.url}
+                            to={link.url}
                         >
                             {link.text}
-                        </a>
+                        </Link>
                     </li>
                 ))}
             </ul>
@@ -20,6 +21,10 @@ const FooterCol = ({ title, links }) => {
     )
 }
 const Footer = () => {
+    const [copyrightLoaded, setCopyrightLoaded] = React.useState(false)
+    React.useEffect(() => {
+        setCopyrightLoaded(true)
+    }, [])
     return (
         <footer className="bg-primary-500 text-white ">
             <div className="grid grid-cols-12 std-padding-x py-8 rideau-container">
@@ -27,19 +32,19 @@ const Footer = () => {
                     title="Rideau"
                     links={[
                         {
-                            url: "#",
+                            url: "/about",
                             text: "About Us",
                         },
                         {
-                            url: "#",
+                            url: "/news",
                             text: "News",
                         },
                         {
-                            url: "#",
+                            url: "/portfolio",
                             text: "Previous Work",
                         },
                         {
-                            url: "#",
+                            url: "/privacy",
                             text: "Privacy Policy",
                         },
                     ]}
@@ -48,15 +53,15 @@ const Footer = () => {
                     title="Products"
                     links={[
                         {
-                            url: "#",
+                            url: "/products/exterior",
                             text: "Exterior Blinds",
                         },
                         {
-                            url: "#",
+                            url: "/products/interior",
                             text: "Interior Blinds",
                         },
                         {
-                            url: "#",
+                            url: "/products/executive",
                             text: "Executive Blinds",
                         },
                     ]}
@@ -65,11 +70,11 @@ const Footer = () => {
                     title="Help"
                     links={[
                         {
-                            url: "#",
+                            url: "/faq",
                             text: "FAQ",
                         },
                         {
-                            url: "#",
+                            url: "/contact",
                             text: "Contact",
                         },
                     ]}
@@ -77,7 +82,9 @@ const Footer = () => {
             </div>
             <div className="py-4 bg-primary-700">
                 <span className="std-padding-x text-xs opacity-75 block rideau-container">
-                    2020 © Rideau LLC
+                    {copyrightLoaded
+                        ? `${new Date().getFullYear()} © Rideau LLC`
+                        : "Rideau LLC © 2020 - present"}
                 </span>
             </div>
         </footer>
