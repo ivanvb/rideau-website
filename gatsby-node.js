@@ -57,7 +57,35 @@ async function createSubcategoriesPages(actions, graphql) {
     })
 }
 
+async function createPostsPages(actions, graphql) {
+    const { data } = await graphql(`
+        query {
+            allMarkdownRemark {
+                edges {
+                    node {
+                        frontmatter {
+                            slug
+                        }
+                    }
+                }
+            }
+        }
+    `)
+
+    data.allMarkdownRemark.edges.forEach(({ node }) => {
+        console.log(node.frontmatter.slug)
+        actions.createPage({
+            path: `/news/${node.frontmatter.slug}/`,
+            component: path.resolve("./src/templates/blogPostPage.js"),
+            context: {
+                slug: node.frontmatter.slug,
+            },
+        })
+    })
+}
+
 exports.createPages = async function ({ actions, graphql }) {
     await createCategoriesPages(actions, graphql)
     await createSubcategoriesPages(actions, graphql)
+    await createPostsPages(actions, graphql)
 }

@@ -28,3 +28,27 @@ main {
     max-width: var(--max-width);
     margin: auto;
 }
+
+.markdown-post p {
+    @apply text-gray-700 leading-7 mb-4;
+}
+
+.markdown-post h2 {
+    @apply text-primary-900 text-2xl font-bold mb-1 tracking-wide;
+}
+
+.markdown-post h3 {
+    @apply text-primary-700 text-xl font-bold mb-1 tracking-wide;
+}
+
+.markdown-post ul {
+    @apply mb-8 pl-6;
+}
+
+.markdown-post ul li {
+    @apply list-disc text-gray-700;
+}
+
+.markdown-post a {
+    @apply text-primary-700 underline;
+}

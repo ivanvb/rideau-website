@@ -2,8 +2,9 @@
 title: What our Lorem Investigations Have Shown
 date: 2019-11-22T17:00:00.000
 slug: the-lorem
-excerpt: We've been researching about including Lorem into our catalog for the past several years. See the results of our investigations and what will come next!
-image: ../../images/home/gallery/ombralsun3.jpg
+excerpt: We've been researching about including Lorem into our catalog for the past several years. For those who don't know, Lorem is the manufacturing material of the future and will certainly change the way the industry is shaped over the following few years. See the results of our investigations and what will come next!
+image: ../../images/the-lorem.png
+fitImage: contain
 ---
 
 Lorem is the material of the future according to the Time magazine in 2017, since then many companies have started doing research on how to include it on their product. This has inspired Rideau to do its own research and here is what our experts have found out

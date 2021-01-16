@@ -3,7 +3,8 @@ title: Presenting Patio Exterior Blinds
 date: 2020-12-02T17:00:00.000
 slug: presenting-patio
 excerpt: Rideau presents its latest addition to its exterior collection, the Patio Blinds, perfect for all kind of exterior environments
-image: ../../images/products/exterior/patio/patio-01.jpg
+image: ../../images/products/exterior/patio/patio-07.jpg
+fitImage: cover
 ---
 
 Since its creation Rideau has been dedicated to provide the best possible service for our customers, this has been the driving force for our astonishing success in the past and we believe it will continue being so for the time being. This leads us to always be checking out what the customers need, what the market wants, but more importantly, what we believe will make our customers happy regardless of the place they will install our products.
@@ -21,6 +22,6 @@ The Patio comes in a variety of colors, including:
 * Picnic Blue
 * Celestial Pink
 
-## Available Today
+## Available Next Week
 
-Rideau's Patio is available today! Check out more information about it [here](https://google.com) and start bringing your exterior spaces to the next decade.
+Rideau's Patio is starting on December 9th 2020! Mark the date and visit our page on that date, you will be as amazed as we were the first time we discovered the marvelous world of Rideau's Patio.
