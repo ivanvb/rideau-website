@@ -2,21 +2,91 @@
     {
         "text": "The quality of the service was something I had never came across in any other company. From day one they made sure I was getting the best service possible.",
         "reviewer": {
-            "name": "John Doe",
+            "name": "John D. Minler",
             "image": "./images/characters/john-doe.jpg"
+        },
+        "result": "../../images/products/exterior/ombralsun/ombralsun-02.jpg",
+        "link": "/about/",
+        "year": 2021
+    },
+    {
+        "text": "My family recently moved to San Francisco and one of the first things we did was call Rideau to pick a model of curtains that would go well with our new house, and as always, they delivered.",
+        "reviewer": {
+            "name": "Karen Bruce",
+            "image": "./images/characters/person6.jpg"
         },
         "result": "./images/results/string5.jpg",
         "link": "/about/",
-        "year": 2017
+        "year": 2020
     },
     {
-        "text": "This has been one of the most premium services I have received. They adjusted the blinds to fit exactly what I needed, a thing that no other company was offering at a reasonable price.",
+        "text": "When I founded Indy Travelling Agency, I wanted to have an office that reflected my vision: relaxed, chill but realiable, and with Rideau's Skylines were just perfect for it.",
+        "reviewer": {
+            "name": "Indy Nalenkko",
+            "image": "./images/characters/hikingmeceo.jpeg"
+        },
+        "result": "../../images/products/executive/vertical/vertical-03.jpg",
+        "link": "/about/",
+        "year": 2020
+    },
+    {
+        "text": "In Sirma Consulting Services we give a revamp to our office every three years and since 2001 we've been partering with Rideau to give the final touches with their excellent Executive top of the line curtains.",
+        "reviewer": {
+            "name": "Shelly Davis",
+            "image": "./images/characters/person5.jpeg"
+        },
+        "result": "../../images/products/executive/vertical/vertical-02.jpg",
+        "link": "/about/",
+        "year": 2019
+    },
+    {
+        "text": "When Rideau was just starting out over two decades ago I was one of their first customers and I immediately knew I was not going anywhere else. The quality was just out of this world.",
+        "reviewer": {
+            "name": "Jeffrey Nolls",
+            "image": "./images/characters/person4.jpeg"
+        },
+        "result": "../../images/products/exterior/perma/perma-03.jpg",
+        "link": "/about/",
+        "year": 2019
+    },
+    {
+        "text": "This has been one of the most premium services I've received. They adjusted the blinds to fit exactly what I needed, a thing that no other company was offering at a reasonable price.",
         "reviewer": {
             "name": "Anne Ericson",
             "image": "./images/characters/anne-ericson.jpg"
         },
         "result": "./images/results/anne-ericson-result.jpg",
         "link": "/about/",
-        "year": 2019
+        "year": 2017
+    },
+    {
+        "text": "We decided to redesign our exterior spaces after almost a decade using an outdated set of Patio blinds. Then we switched to Rideau's Helix and we have not stopped receiving compliments from our neighborhood.",
+        "reviewer": {
+            "name": "Kimberly G. James",
+            "image": "./images/characters/person3.jpeg"
+        },
+        "result": "../../images/products/exterior/helix/helix-05.jpg",
+        "link": "/about/",
+        "year": 2017
+    },
+    {
+        "text": "When my previous blinds provider failed to deliver to the quality standards my company and I were looking for, I discovered Rideau and have never looked back. Top of the line service!",
+        "reviewer": {
+            "name": "Rachelle Penningtonn",
+            "image": "./images/characters/person9.jpeg"
+        },
+        "result": "../../images/products/interior/roman/roman-03.jpg",
+        "link": "/about/",
+        "year": 2016
+    },
+    {
+        "text": "There have been very few companies that have earned my respect the way Rideau did. They cared about every single detail of the experience from the moment I contacted them until the installation was done.",
+        "reviewer": {
+            "name": "David T. Walters",
+            "image": "./images/characters/person8.jpeg"
+        },
+        "result": "../../images/products/interior/blackout/blackout-07.jpg",
+        "link": "/about/",
+        "year": 2013
     }
 ]

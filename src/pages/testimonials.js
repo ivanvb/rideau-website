@@ -5,8 +5,8 @@ import TestimonialsList from "../components/testimonials/testimonialsList"
 const Testimonials = () => {
     return (
         <Layout>
-            <section className="std-padding-x">
-                <h1 className="section-title mb-4">Success Stories</h1>
+            <section className="std-padding-x mb-16">
+                <h1 className="section-title mb-4 mt-3">Success Stories</h1>
                 <TestimonialsList />
             </section>
         </Layout>
