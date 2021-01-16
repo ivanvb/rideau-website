@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
-import HeaderImage from "../components/general/headerImage"
+import HeaderImageWithText from "../components/general/HeaderImageWithText"
 import MultiparagraphText from "../components/general/multiparagraphText"
 import Img from "gatsby-image"
 
@@ -11,15 +11,10 @@ const CategoryPage = ({ data }) => {
     return (
         <Layout>
             <SEO title={categoryData.name} />
-            <div className="relative">
-                <HeaderImage
-                    fluidImage={categoryData.headerImage.childImageSharp.fluid}
-                    darken
-                />
-                <h1 className="absolute bottom-0 ml-4 md:ml-12 lg:ml-20 pb-4 lg:pb-6 text-white text-3xl md:text-52xl lg:text-6xl uppercase tracking-wide">
-                    {categoryData.name}
-                </h1>
-            </div>
+            <HeaderImageWithText
+                image={categoryData.headerImage.childImageSharp.fluid}
+                text={categoryData.name}
+            />
             <section className="std-padding-x mb-6">
                 <MultiparagraphText text={categoryData.description} />
             </section>

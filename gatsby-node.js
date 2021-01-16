@@ -48,6 +48,9 @@ async function createSubcategoriesPages(actions, graphql) {
                 context: {
                     name: node.name,
                     subcategory: subcategoryName,
+                    regex: new RegExp(
+                        `${subcategoryName.replace(/ /, "-").toLowerCase()}/.*`
+                    ).toString(),
                 },
             })
         })
