@@ -34,6 +34,9 @@ module.exports = {
                 sans: ["Open Sans", "Arial"],
                 title: ["Lato", "Arial"],
             },
+            maxWidth: {
+                std: "1440px",
+            },
         },
         minHeight: {
             64: "16rem",
