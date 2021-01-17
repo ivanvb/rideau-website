@@ -2,12 +2,13 @@ import React from "react"
 import Layout from "../components/layout"
 import ContactForm from "../components/contact/ContactForm"
 import { SiMinutemailer } from "react-icons/si"
+import SEO from "../components/seo"
 
 const Contact = () => {
     const [submitted, setSubmitted] = React.useState(false)
-    console.log(submitted)
     return (
         <Layout>
+            <SEO title="Contact" />
             <section className="px-8  md:px-32 lg:px-64 xl:px-80">
                 {submitted === false ? (
                     <>

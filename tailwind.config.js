@@ -30,6 +30,10 @@ module.exports = {
             maxHeight: {
                 0: "0",
             },
+            fontFamily: {
+                sans: ["Open Sans", "Arial"],
+                title: ["Lato", "Arial"],
+            },
         },
         minHeight: {
             64: "16rem",

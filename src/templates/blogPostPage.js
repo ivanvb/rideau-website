@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Image from "gatsby-image"
 import { getHumanDate } from "../util/index"
+import SEO from "../components/seo"
 
 const BlogPostPage = ({ data }) => {
     const {
@@ -10,6 +11,7 @@ const BlogPostPage = ({ data }) => {
     } = data
     return (
         <Layout>
+            <SEO title={postData.title} description={postData.excerpt} />
             <section className="std-padding-x mb-16">
                 <h1 className="section-title mt-3 mb-4">{postData.title}</h1>
                 <Image
