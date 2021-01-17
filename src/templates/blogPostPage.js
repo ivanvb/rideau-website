@@ -16,9 +16,11 @@ const BlogPostPage = ({ data }) => {
                 <h1 className="section-title mt-3 mb-4">{postData.title}</h1>
                 <Image
                     fluid={postData.image.childImageSharp.fluid}
-                    className="w-full h-128"
+                    className="w-full h-64 md:h-128"
                     imgStyle={{
-                        objectFit: `${postData.fitImg ? "cover" : "contain"}`,
+                        objectFit: `${
+                            postData.fitImage === "cover" ? "cover" : "contain"
+                        }`,
                     }}
                 />
                 <p className="text-gray-700 mt-2 mb-6">
