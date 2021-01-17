@@ -6,7 +6,6 @@
             "image": "./images/characters/john-doe.jpg"
         },
         "result": "../../images/products/exterior/ombralsun/ombralsun-02.jpg",
-        "link": "/about/",
         "year": 2021
     },
     {
@@ -16,7 +15,6 @@
             "image": "./images/characters/person6.jpg"
         },
         "result": "./images/results/string5.jpg",
-        "link": "/about/",
         "year": 2020
     },
     {
@@ -26,7 +24,6 @@
             "image": "./images/characters/hikingmeceo.jpeg"
         },
         "result": "../../images/products/executive/vertical/vertical-03.jpg",
-        "link": "/about/",
         "year": 2020
     },
     {
@@ -36,7 +33,6 @@
             "image": "./images/characters/person5.jpeg"
         },
         "result": "../../images/products/executive/vertical/vertical-02.jpg",
-        "link": "/about/",
         "year": 2019
     },
     {
@@ -46,7 +42,6 @@
             "image": "./images/characters/person4.jpeg"
         },
         "result": "../../images/products/exterior/perma/perma-03.jpg",
-        "link": "/about/",
         "year": 2019
     },
     {
@@ -56,7 +51,6 @@
             "image": "./images/characters/anne-ericson.jpg"
         },
         "result": "./images/results/anne-ericson-result.jpg",
-        "link": "/about/",
         "year": 2017
     },
     {
@@ -66,7 +60,6 @@
             "image": "./images/characters/person3.jpeg"
         },
         "result": "../../images/products/exterior/helix/helix-05.jpg",
-        "link": "/about/",
         "year": 2017
     },
     {
@@ -76,7 +69,6 @@
             "image": "./images/characters/person9.jpeg"
         },
         "result": "../../images/products/interior/roman/roman-03.jpg",
-        "link": "/about/",
         "year": 2016
     },
     {
@@ -86,7 +78,6 @@
             "image": "./images/characters/person8.jpeg"
         },
         "result": "../../images/products/interior/blackout/blackout-07.jpg",
-        "link": "/about/",
         "year": 2013
     }
 ]

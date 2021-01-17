@@ -45,14 +45,14 @@ const TestimonialCard = ({ text, reviewer, result, year }) => {
                 >
                     <h2
                         className="text-left font-bold text-primary-500 absolute"
-                        style={{ left: "80px" }}
+                        style={{ left: "88px" }}
                     >
                         {reviewer.name}
                         <span className="inline-block ml-2 text-sm text-gray-700 font-light">
                             {year}
                         </span>
                     </h2>
-                    <p className="pl-8 pr-4 text-sm pt-6 mt-1 text-gray-700 text-left">
+                    <p className="pl-8 pr-4 text-sm pt-8 text-gray-700 text-left">
                         {text}
                     </p>
                 </div>

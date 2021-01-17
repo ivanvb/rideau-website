@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { generateRandomNumber } from "../../util/index"
 
@@ -27,7 +27,6 @@ const Review = () => {
                                 }
                             }
                         }
-                        link
                     }
                 }
             }
@@ -50,12 +49,6 @@ const Review = () => {
                     />
                     <p className="bg-white px-4 py-8 md:p-8 -mt-8 text-center rounded shadow-md text-gray-700">
                         {review.text}
-                        <Link
-                            to={review.link}
-                            className="block mt-4 font-bold -mb-4"
-                        >
-                            Read full review
-                        </Link>
                     </p>
                 </div>
             </div>

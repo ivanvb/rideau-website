@@ -43,10 +43,6 @@ const Footer = () => {
                             url: "/portfolio",
                             text: "Previous Work",
                         },
-                        {
-                            url: "/privacy",
-                            text: "Privacy Policy",
-                        },
                     ]}
                 />
                 <FooterCol
@@ -69,10 +65,6 @@ const Footer = () => {
                 <FooterCol
                     title="Help"
                     links={[
-                        {
-                            url: "/faq",
-                            text: "FAQ",
-                        },
                         {
                             url: "/contact",
                             text: "Contact",
