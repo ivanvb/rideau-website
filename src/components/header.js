@@ -85,6 +85,8 @@ const Header = () => {
                 <img
                     src={RideauLogo}
                     alt="Rideau Logo"
+                    height="200"
+                    width="200"
                     className="h-16 transform transition-transform duration-200 active:scale-90"
                 />
             </Link>

@@ -12,7 +12,7 @@ const Categories = () => {
                         name
                         image {
                             childImageSharp {
-                                fluid(maxWidth: 500) {
+                                fluid(maxWidth: 420) {
                                     ...GatsbyImageSharpFluid
                                 }
                             }
