@@ -2,6 +2,8 @@
 
 This is a website for a company that does not exists, its main purpose was to serve as something I could confidently add to my portfolio as it was entirely built and designed by me.
 
+Check it out live [here](https://rideau-website.vercel.app/).
+
 ## What was used for this project?
 
 This project was built using [Gatsby](https://www.gatsbyjs.com/), a React framework for Static Site Generation (SSG), and [Tailwind CSS](https://tailwindcss.com/).
