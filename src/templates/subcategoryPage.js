@@ -1,7 +1,7 @@
 import React from "react"
 import SEO from "../components/seo"
 import Layout from "../components/layout"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import MultiparagraphText from "../components/general/multiparagraphText"
 import HeaderImageWithText from "../components/general/HeaderImageWithText"
@@ -41,13 +41,18 @@ const subcategoryPage = ({
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {images.map((image, i) => {
                         return (
-                            <Link key={i} to={`${image.publicURL}`}>
+                            <a
+                                key={i}
+                                href={`${image.publicURL}`}
+                                target="_blank"
+                                rel="noreferrer"
+                            >
                                 <Image
                                     fluid={image.childImageSharp.fluid}
                                     className="h-64"
                                     style={{ height: "100%" }}
                                 />
-                            </Link>
+                            </a>
                         )
                     })}
                 </div>

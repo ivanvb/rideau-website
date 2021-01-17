@@ -19,6 +19,7 @@ const ProductCategories = () => {
                             }
                         }
                         showcaseImages {
+                            publicURL
                             childImageSharp {
                                 fluid(maxHeight: 300, maxWidth: 300) {
                                     ...GatsbyImageSharpFluid
@@ -41,7 +42,10 @@ const ProductCategories = () => {
                     text={category.description}
                     image={category.image.childImageSharp.fluid}
                     showcaseImages={category.showcaseImages.map(
-                        showcaseImage => showcaseImage.childImageSharp.fluid
+                        showcaseImage => ({
+                            image: showcaseImage.childImageSharp.fluid,
+                            link: showcaseImage.publicURL,
+                        })
                     )}
                 />
             ),
@@ -49,7 +53,7 @@ const ProductCategories = () => {
     )
 
     return (
-        <section className="std-padding-x">
+        <section className="std-padding-x mb-16">
             <MagicTabs tabs={tabs} />
         </section>
     )
