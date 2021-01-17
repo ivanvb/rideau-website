@@ -14,7 +14,7 @@ const Contact = () => {
                     <>
                         <h1 className="section-title mt-3">Contact Us!</h1>
                         <p className="text-gray-700 mb-6">
-                            Have any questions? Interested on getting Rideau for
+                            Have any questions? Interested in getting Rideau for
                             your house or business? Leave us a message and we
                             will be reaching out to you soon!
                         </p>

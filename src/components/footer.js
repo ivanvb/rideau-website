@@ -40,7 +40,7 @@ const Footer = () => {
                             text: "News",
                         },
                         {
-                            url: "/portfolio",
+                            url: "/testimonials",
                             text: "Previous Work",
                         },
                     ]}
