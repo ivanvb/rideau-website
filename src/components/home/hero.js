@@ -18,10 +18,10 @@ const Hero = () => {
     return (
         <section className="relative flex flex-wrap mt-12 md:mt-0 std-section-m-bottom">
             <div className="w-full md:w-1/2 px-8 md:pl-12 xl:pl-48 md:pr-8 flex flex-col justify-center mb-16">
-                <h1 className="font-bold text-3xl text-gray-900 mb-6 md:mb-4 leading-8 text-center md:text-left">
+                <h1 className="font-bold text-3xl text-gray-900 mb-6 md:mb-4 leading-9 text-center md:text-left">
                     Find The Right Blinds.<br></br>For The Right Place.
                 </h1>
-                <p className="text-gray-700 mb-8 text-center md:text-left">
+                <p className="text-gray-700 mb-8 text-center md:text-left leading-7">
                     Picking the right blinds can be a long and daunting task.
                     <br></br>
                     That's why we're here to guide you through the entire

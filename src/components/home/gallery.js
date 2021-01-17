@@ -29,7 +29,7 @@ const Gallery = () => {
             />
             <div className="lg:pl-12 text w-full lg:w-1/2 order-1 lg:order-2">
                 <h2 className="section-title">Sun Protection, Everywhere</h2>
-                <p className="text-gray-700">
+                <p className="text-gray-700 leading-7">
                     Get the best value solar protection for your house. Each
                     time you pick Rideau, you're picking the best not only for
                     you and your family, but also for the environment. Rideau is
