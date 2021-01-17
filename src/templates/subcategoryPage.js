@@ -25,8 +25,13 @@ const subcategoryPage = ({
             />
             <section className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-4 std-padding-x">
                 <div className="col-span-1">
-                    <h2 className="section-title mb-2">The Favorite</h2>
-                    <MultiparagraphText text={subcategory.description} />
+                    <h2 className="section-title mb-2">
+                        What makes Rideau's {subcategory.name} Special?
+                    </h2>
+                    <MultiparagraphText
+                        text={subcategory.description}
+                        className="leading-8"
+                    />
                 </div>
                 <div className="col-span-1 h-64 lg:h-128 mb-8">
                     <Image
